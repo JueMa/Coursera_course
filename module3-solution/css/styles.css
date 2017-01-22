@@ -10,28 +10,42 @@ body {
   background-color: #567647;
   border-radius: 0;
   padding-left: 20px;
+  border: 0px;
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1px solid #61122f;
+  border: 2px solid #61122f;
+ }
+
+#collapsable-nav {
+
 }
 
 
 #nav-list {
   color: black;
+  font-size: 18px;
   text-align: center;
-}
+  background-color: white;
+  padding: 0px;
+  margin: 0px;
+ }
 
+
+/** Main Content **/
 
 .jumbotron {
   height: 1000px;
   color: black;
   border-radius: 0;
   border: 0;
+  margin: 10px 50px 10px 50px;
+  font-size: 16px;
 }
 
 #menu-header {
   text-align: center
+
 }
 
 #sub-header {
